@@ -1,0 +1,38 @@
+html {
+    font-family: Arial, Helvetica, sans-serif
+} 
+
+#players {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin : 5em auto 2em auto;
+}
+
+#players h3 {
+    margin : auto 10em;
+    font-size : 2em;
+}
+
+.centre {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#score {
+    font-size: 5em;
+}
+
+#buttons {
+    margin: 5em auto 2em auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons button {
+    height : 3em;
+    width : 7em;
+    margin : auto 2em;
+}

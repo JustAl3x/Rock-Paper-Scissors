@@ -6,7 +6,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin : 5em auto 2em auto;
+    margin : 5em auto auto auto;
 }
 
 #players h3 {
@@ -35,4 +35,17 @@ html {
     height : 3em;
     width : 7em;
     margin : auto 2em;
+}
+
+#recentMove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#recentMove * {
+    margin: 5em auto 2em auto;
+    width : 2em;
+    height : 1em;
+    justify-content: center;
 }
